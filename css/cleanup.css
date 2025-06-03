@@ -1,1 +1,46 @@
 /* write your override styles here */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base styles */
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Layout improvements */
+header,
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Image cleanup */
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  color: #444;
+  margin-bottom: 10px;
+}
